@@ -1,0 +1,48 @@
+.form {
+  padding: 1rem;
+  border-radius: 7px;
+  background-color: var(--colors-card-background);
+}
+
+.field {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input, .textarea {
+  display: block;
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #DDDDDD;
+  border-radius: 7px;
+  box-shadow: 0px 1px 2px 0px #0000001A inset;
+}
+
+.buttons {
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.saveButton {
+  padding: 6px 12px;
+  border: 1px solid #0030CC;
+  border-radius: 50px;
+  background-color: var(--colors-brand);
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 1px 4px 0px #0000000A;
+  line-height: 20px;
+}
+
+.cancelButton {
+  border: none;
+  background: none;
+  cursor: pointer;
+}

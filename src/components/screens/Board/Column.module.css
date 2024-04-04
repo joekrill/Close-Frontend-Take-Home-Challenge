@@ -1,0 +1,50 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background: #f1f1f1;
+  border-radius: 7px;
+  width: 20rem;
+  max-width: calc(100vw - 6rem);
+  height: 100%;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  flex: 1;
+  margin: 0;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #222;
+  line-height: 2rem;
+}
+
+.button {
+  cursor: pointer;
+  padding: 0;
+  border: 0;
+  margin-left: auto;
+  width: 1rem;
+  height: 1rem;
+  background: none;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.cards {
+  flex: 1;
+  overflow-x: auto;
+  margin-top: 1rem;
+  row-gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}

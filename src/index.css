@@ -1,0 +1,36 @@
+:root {
+  --colors-brand: #1463FF;
+  --colors-text: #303030;
+  --colors-link: #1463FF;
+  --colors-card-background: #fff;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lucida Grande', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  height: 100%;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}

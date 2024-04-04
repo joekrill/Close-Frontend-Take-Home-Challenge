@@ -1,0 +1,31 @@
+.card {
+  padding: 1rem;
+  border-radius: 7px;
+  background-color: var(--colors-card-background);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  flex: 1;
+  margin: 0;
+  margin-left: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  color: var(--colors-link);
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 1.5rem;
+}
+
+.description {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--colors-text);
+  line-height: 1.25rem;
+  overflow-wrap: break-word;
+}
